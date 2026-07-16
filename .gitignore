@@ -1,0 +1,42 @@
+# Compilação .NET
+bin/
+obj/
+publish/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Rider / JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Testes e cobertura
+TestResults/
+coverage/
+*.trx
+*.coverage
+
+# Logs
+logs/
+*.log
+
+# Variáveis e configurações locais
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.Development.local.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporários
+*.tmp
+*.bak
+*.swp
