@@ -3,10 +3,10 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 
 WORKDIR /src
 
-COPY FullStackPractice.Api.csproj ./
+COPY ./backend/FullStackPractice.Api.csproj ./
 RUN dotnet restore
 
-COPY . ./
+COPY ./backend ./
 RUN dotnet publish \
     -c Release \
     -o /app/publish \
