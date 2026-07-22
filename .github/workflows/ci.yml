@@ -1,4 +1,4 @@
-name: CI OrbitBoard
+name: CI FullStackPractice API
 
 on:
   push:
