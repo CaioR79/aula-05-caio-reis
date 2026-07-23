@@ -1,5 +1,6 @@
 using System.Collections.Concurrent;
 using Microsoft.OpenApi.Models;
+int quantidade = "valor inválido";
 
 var builder = WebApplication.CreateBuilder(args);
 
